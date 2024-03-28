@@ -1,0 +1,318 @@
+def st():
+    global x
+    t=1
+    g=k=0
+    while t:
+        print("\n====================\nWelcome to the zoo, please select your role\n1.Visitor (to be implemented)  2.Zoo staff (to be implemented)  3.Aquarium staff  4.Zoo director")
+        ch=int(input("Your choice is:"))
+        if  ch==1 or ch==2:
+            if k==3:
+                print("\nTo be implemented")
+                break
+            else:
+                k+=1
+                print("Even though they said “to be implemented”, you still choose?")
+                continue
+        if ch==3:
+            oy()
+        elif  ch==4:
+            yz()
+        else:
+            print("The serial number you entered is not the above, please re-enter it.")
+            continue
+        while 1:
+            print("====================\n\nThis story is over, do you want to try it again? \n1.Once again  2.Exit the story")
+            ch=int(input("Your choice is:"))
+            if ch==1:
+                print("The next story begins.")
+            elif ch==2:
+                t=0
+                print("Okay, thanks for reading this story, bye.")
+            else:
+                print("The serial number you entered is not the above, please re-enter it.")
+                continue
+            break
+
+def oy():
+    global m
+    i=s=1
+    while 1:
+        print("On your first day at work, you actually had to work the night shift. A guy came in wearing the same work clothes as you, except that your work clothes were red and his were black.\n1.Ignore him  2.Stab him with an electric shock stick  3.Shoot him with a tranquilizer gun")
+        ch=int(input("Your choice is:"))
+        if ch==1:
+            print("Didn't anyone tell you to get rid of anyone wearing black?")
+            if m:
+                print("You're gone again")
+            else:
+                print("You're gone")
+                m=True
+            i=s=0
+        elif ch==2:
+            print("You succeeded in driving him away")
+        elif ch==3:
+            print("You succeeded in driving him away")
+        else:
+            print("The serial number you entered is not the above, please re-enter it.")
+            continue
+        break
+    while s:
+        print("After driving away the people in black work clothes, the sky gradually became dark. It was almost 1:00, and the jellyfish night light in the hour guest room was still on.\n1.Ask guests staying in guest rooms to turn off night lights  2.What does it have to do with me if they don't turn off the lights?")
+        ch=int(input("Your choice is:"))
+        if ch==1:
+            while 1:
+                print("At this time, some tourists refused to turn off the jellyfish night light. What should we do now?\n1. Inform tourists that they will be responsible for the consequences if they do not turn off the night light.  2. Unplug the wire directly")
+                ch=int(input("Your choice is:"))
+                if ch==1:
+                    print("Didn't anyone tell you that the jellyfish night light has to be turned off by 1:15?")
+                    if m:
+                        print("You're gone again")
+                    else:
+                        print("You're gone")
+                        m=True
+                    i=0
+                elif ch==2:
+                    while 1:
+                        print("Now that the night lights are turned off, you see a cute bunny doll in the guest room.\n1.Stole it while the tourists were sleeping")
+                        ch=int(input("Your choice is:"))
+                        if ch==1:
+                            while 1:
+                                print("After solving the problem of the bunny doll, what should we do next?\n1.Take a walk in the aquarium  2.Return to your job honestly")
+                                if ch==1:
+                                    while 1:
+                                        print("When passing by the whale area, I accidentally saw a drowning elephant.\n1. What was going on?  2.Isn't this just an ordinary whale?")
+                                        ch=int(input("Your choice is:"))
+                                        if ch==1:
+                                            print("Didn't anyone tell you to ignore the drowned elephant in Whale Zone?")
+                                            if m:
+                                                print("You're gone again")
+                                            else:
+                                                print("You're gone")
+                                                m=True
+                                            i=0
+                                        elif ch==2:
+                                            print("After ignoring the drowned elephant, you quickly finished visiting the whale area.")
+                                        else:
+                                            print("The serial number you entered is not the above, please re-enter it.")
+                                            continue
+                                        break
+                                elif ch==2:
+                                    while 1:
+                                        print("On the way back to work, you passed by the shelves filled with various foods. You found an unfamiliar food labeled "goat meat" on the shelf. What should you do now?\n1.Eat it  2.Stay away  3.This kind of thing should not be placed on the shelf. Put it away first")
+                                        ch=int(input("Your choice is:"))
+                                        if ch==1:
+                                            print("This goat meat tastes very strange, just like goat meat, and you will finish the goat meat very quickly.")
+                                        elif ch==2:
+                                            print("Didn't anyone tell you that if you find "goat meat" you have to put it in a separate bin in the whale area?")
+                                            if m:
+                                                print("You're gone again")
+                                            else:
+                                                print("You're gone")
+                                                m=True
+                                            i=0
+                                        elif ch==3:
+                                            print("You put the "goat meat" in the storage box in the whale area")
+                                        else:
+                                            print("The serial number you entered is not the above, please re-enter it.")
+                                            continue
+                                        break
+                                else:
+                                    print("The serial number you entered is not the above, please re-enter it.")
+                                    continue
+                                break
+                        else:
+                            print("The serial number you entered is not the above, please re-enter it.")
+                            continue
+                        break
+                else:
+                    print("The serial number you entered is not the above, please re-enter it.")
+                    continue
+                break
+        elif ch==2:
+            print("Didn't anyone tell you to check that the night light is off?")
+            if m:
+                print("You're gone again")
+            else:
+                print("You're gone")
+                m=True
+            i=0
+        else:
+            print("The serial number you entered is not the above, please re-enter it.")
+            continue
+        break
+    while i:
+        print("Didn't anyone tell you to check that the night light is off?\n1.Leave early  2.Don’t leave until after get off work hours")
+        ch=int(input("Your choice is:"))
+        if ch==1:
+            print("My first day at work went by without incident. It seems like this job is quite safe.")
+        elif ch==2:
+            print("Didn't anyone tell you that you can leave early but never work overtime?")
+            if m:
+                print("You're gone again")
+            else:
+                print("You're gone")
+                m=True
+        else:
+            print("The serial number you entered is not the above, please re-enter it.")
+            continue
+        break
+
+def yz():
+    global m
+    while 1:
+        print("It’s my first day at work. The weather is really nice. I’m a little sleepy. There’s a cute bunny doll on the sofa.\n1.Go out for a walk  2.Start lunch break")
+        ch=int(input("Your choice is:"))
+        if ch==1:
+            while 1:
+                print("The zoo is really big. There is an aquarium there.\n1.Go in and have a look  2.Ignore")
+                ch=int(input("Your choice is:"))
+                if  ch==1:
+                    while 1:
+                        print("Just after noon, I walked into the aquarium.\nIt's so quiet in the aquarium. There's no one there. There are a lot of black work clothes at the door.\n1.This clothes is so beautiful. Hurry up and put it on.  2.I'm the principal, so I won't wear work clothes like this.")
+                        ch=int(input("Your choice is:"))
+                        if ch==1:
+                            print("Didn't anyone tell you not to change the color of your clothes?")
+                            if m:
+                                print("You're gone again")
+                            else:
+                                print("You're gone")
+                                m=True
+                        if ch==2:
+                            while 1:
+                                print("When you walk into the aquarium, you first arrive at the whale area. You see an elephant swimming in the water.\n1.Where is the security guard?  2.Isn't this just a whale?")
+                                ch=int(input("Your choice is:"))
+                                if ch==1:
+                                    print("Didn't anyone tell you to treat an elephant normally when you see it swimming in the water?")
+                                    if m:
+                                        print("You're gone again")
+                                    else:
+                                        print("You're gone")
+                                        m=True
+                                elif ch==2:
+                                    while 1:
+                                        print("After leaving the whale area, you entered the jellyfish area. When you saw the hourly guest room on the left side of the jellyfish area, you started to feel sleepy again.\n1.Take a nap in the hour room 2.This is not a good place to sleep. Leave the aquarium.")
+                                        ch=int(input("Your choice is:"))
+                                        if ch==1:
+                                            print("You accidentally fell asleep and stayed in the aquarium for more than half an hour.")
+                                            if m:
+                                                print("You're gone again")
+                                            else:
+                                                print("You're gone")
+                                                m=True
+                                        elif ch==2:
+                                            while 1:
+                                                print("After leaving the aquarium, you saw an employee bringing his pet into the zoo.\n1.Bringing your own pet? Fine first  2.Ask this employee to do so at your own risk")
+                                                ch=int(input("Your choice is:"))
+                                                if ch==1:
+                                                    print("\nAfter paying the fine, you looked at your watch and saw that it was time to get off work.\nThe first day of work is over and nothing strange happened.")
+                                                elif ch==2:
+                                                    print("After warning the employee, you looked at your watch and saw that it was time to get off work.\nThe first day of work is over and nothing strange happened.")
+                                                else:
+                                                    print("The serial number you entered is not the above, please re-enter it.")
+                                                    continue
+                                                break
+                                        else:
+                                            print("The serial number you entered is not the above, please re-enter it.")
+                                            continue
+                                        break
+
+                                else:
+                                    print("The serial number you entered is not the above, please re-enter it.")
+                                    continue
+                                break
+                        else:
+                            print("The serial number you entered is not the above, please re-enter it.")
+                            continue
+                        break
+                elif ch==2:
+                    while 1:
+                        print("At this time, the monitoring room employee comes to inform you that the extra rabbit doll has disappeared. Do you want to go back to the office now?\n1.Since there is nothing strange anymore, why not come back?  2.This zoo is so weird, I won’t go back")
+                        ch=int(input("Your choice is:"))
+                        if ch==1:
+                            while 1:
+                                print("Back in the office, the monitor that was working normally just now was suddenly damaged for some reason.\n1.Fix it first  2.Check it first")
+                                ch=int(input("Your choice is:"))
+                                if ch==1:
+                                    print("Didn't anyone tell you that if the monitor is damaged, you should check whether there is animal hair on the camera?")
+                                    if m:
+                                        print("You're gone again")
+                                    else:
+                                        print("You're gone")
+                                        m=True
+                                elif ch==2:
+                                    while 1:
+                                        print("You checked the monitor and found animal hair on the camera. What should you do now?\n1.I'd better buy a mini camera myself  2.Clean animal hair and repair monitors")
+                                        ch=int(input("Your choice is:"))
+                                        if ch==1:
+                                            while 1:
+                                                print("I successfully bought a miniature camera to replace it. Do I need to ask the finance department for reimbursement?\n1.Sure  2.There is no need to reimburse at all")
+                                                ch=int(input("Your choice is:"))
+                                                if ch==1:
+                                                    print("The first day of work is over. It seems like everything is pretty normal here.")
+                                                elif ch==2:
+                                                    print("It was so expensive that you'd go bankrupt.")
+                                                    if m:
+                                                        print("You're gone again")
+                                                    else:
+                                                        print("You're gone")
+                                                        m=True
+                                                else:
+                                                    print("The serial number you entered is not the above, please re-enter it.")
+                                                    continue
+                                                break
+                                        elif ch==2:
+                                            print("Didn't anyone tell you not to repair the monitor within a month if there is animal hair on it?")
+                                            if m:
+                                                print("You're gone again")
+                                            else:
+                                                print("You're gone")
+                                                m=True
+                                        else:
+                                            print("The serial number you entered is not the above, please re-enter it.")
+                                            continue
+                                        break
+                                else:
+                                    print("The serial number you entered is not the above, please re-enter it.")
+                                    continue
+                                break
+                        elif ch==2:
+                            while 1:
+                                print("The weather is really nice today. After staying outside for a short while, I was sweating profusely from the sun.\n1.Go and cool off under the shade of the trees in Rabbit Area  2.I'm going to stay in the sun")
+                                ch=int(input("Your choice is:"))
+                                if ch==1:
+                                    print("Didn't anyone tell you not to be alone under the shade of a tree in Rabbit Area?")
+                                    if m:
+                                        print("You're gone again")
+                                    else:
+                                        print("You're gone")
+                                        m=True
+                                elif ch==2:
+                                    print("After a while, you got heat stroke and you fainted.\nAfter a while, you were sunburned to death")
+                                    if m:
+                                        print("You're gone again")
+                                    else:
+                                        print("You're gone")
+                                        m=True
+                                else:
+                                    print("The serial number you entered is not the above, please re-enter it.")
+                                    continue
+                                break
+                        else:
+                            print("The serial number you entered is not the above, please re-enter it.")
+                            continue
+                        break
+                else:
+                    print("The serial number you entered is not the above, please re-enter it.")
+                    continue
+                break
+        elif ch==2:
+            print("Didn't anyone tell you that there are only lion and ape stuffed animals on the couch?")
+            if m:
+                print("You're gone again")
+            else:
+                print("You're gone")
+                m=True
+        else:
+            print("The serial number you entered is not the above, please re-enter it.")
+            continue
+        break
+print("\nThank you") 
